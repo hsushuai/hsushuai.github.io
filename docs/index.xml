@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docs on My New Hugo Site</title>
-    <link>https://github.com/hsushuai/hsushuai.github.io/docs/</link>
+    <link>https://hsushuai.github.io/docs/</link>
     <description>Recent content in Docs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Oct 2023 19:04:33 +0800</lastBuildDate><atom:link href="https://github.com/hsushuai/hsushuai.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Oct 2023 19:04:33 +0800</lastBuildDate><atom:link href="https://hsushuai.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://github.com/hsushuai/hsushuai.github.io/docs/test/</link>
+      <link>https://hsushuai.github.io/docs/test/</link>
       <pubDate>Sat, 14 Oct 2023 19:04:33 +0800</pubDate>
       
-      <guid>https://github.com/hsushuai/hsushuai.github.io/docs/test/</guid>
+      <guid>https://hsushuai.github.io/docs/test/</guid>
       <description>This is a test page This is test page!</description>
     </item>
     
