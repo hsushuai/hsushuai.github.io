@@ -90,3 +90,9 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .toc li a:hover {
     color: var(--secondary);
 }
+
+.post-content pre,
+code {
+    font-family: 'consolas';
+    max-height: 40rem;
+}

@@ -70,6 +70,7 @@ params:
       url: "index.xml"
 
   assets:
+    disableHLJS: false
     favicon: "logo.ico"
 
   analytics:
