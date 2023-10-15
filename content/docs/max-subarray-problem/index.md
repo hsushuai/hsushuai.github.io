@@ -5,7 +5,7 @@ date: 2023-10-15T15:00:59+08:00
 summary: 一个 O(n) 时间复杂度的分治算法解决最大子数组问题
 tags: ["Algorithm"]
 showToc: true
-draft: true
+draft: false
 ---
 
 ## Promblem on [Leecode](https://leetcode.com/problems/maximum-subarray/)
