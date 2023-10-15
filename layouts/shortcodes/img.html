@@ -1,0 +1,8 @@
+<!-- image -->
+<figure class="align-center">
+    <img loading="lazy" src="images/{{ .Get `src` }}#center"
+        width="{{- if .Get `width` -}} {{ .Get `width` }}{{ else }} 60% {{- end -}}" />
+    <figcaption>
+        <p>{{ with (.Get "caption") -}} {{ . }} {{- end -}}</p>
+    </figcaption>
+</figure>
