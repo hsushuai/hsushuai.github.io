@@ -4,6 +4,8 @@ title: Hsu's blog
 theme: PaperMod
 
 enableRobotsTXT: true
+enableInlineShortcodes: true
+enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -30,8 +32,9 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
+  ShowFullTextinRSS: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -46,15 +49,28 @@ params:
     text: "Home"
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: |
+        🎉 Welcome to my blog!
+
+        Here are some solutions 👨‍💻 to the problems that drive me crazy in my work and study.
+        If you have any questions, please feel free to contact me via [email](mailto:hsushaui@outlook.com).
+
+        This page is based on [Hugo](https://gohugo.io/) theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+
+        Now, everything is building 🏗️ at a *surprise* pace.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:hsushaui@outlook.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/hsushuai"
+    - name: bilibili
+      url: "https://space.bilibili.com/505443787"
+    - name: rss
+      url: "index.xml"
+
+  assets:
+    favicon: "logo.ico"
 
   analytics:
     google:
@@ -66,18 +82,19 @@ params:
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: about
+      name: About
+      url: about
       weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
