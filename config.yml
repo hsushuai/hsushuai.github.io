@@ -44,6 +44,8 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
+  busuanzi:
+      enable: true
 
   label:
     text: "Home"
