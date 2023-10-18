@@ -73,7 +73,7 @@ params:
 
   assets:
     disableHLJS: false
-    favicon: "logo.ico"
+    favicon: "logo.png"
 
   analytics:
     google:
