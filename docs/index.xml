@@ -186,7 +186,7 @@
       <pubDate>Tue, 15 Sep 2020 21:03:15 +0000</pubDate>
       
       <guid>https://hsushuai.github.io/docs/math-typesetting/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
 <p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
 <ul>
