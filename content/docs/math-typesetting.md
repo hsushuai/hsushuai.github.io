@@ -1,30 +1,10 @@
 ---
 title: "Math Typesetting"
 date: 2020-09-15T21:03:15+00:00
-# weight: 1
-# aliases: ["/first"]
 tags: ["first"]
 author: "Hsushuai"
 summary: A brief guide to setup KaTeX
-# author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
 draft: false
-hidemeta: false
-comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 ---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
